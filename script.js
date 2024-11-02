@@ -33,3 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+function redirectToLink() {
+    window.location.href = "https://youtu.be/dQw4w9WgXcQ?si=KdpBapaWpLuwGA_o";
+}
