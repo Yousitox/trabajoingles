@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #00aaff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header .logo {
+    width: 80px;
+    height: auto;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 2em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Product Catalog */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.product {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product .price {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #00aaff;
+}
+
+.product select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.product .buy-button {
+    background-color: #00aaff;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+}
+
+.product .buy-button:hover {
+    background-color: #008ecc;
+}
+
+/* Referral Program Section */
+.referral {
+    text-align: center;
+    padding: 20px;
+    background-color: #e0f7ff;
+    color: #333;
+}
+
+.referral h2 {
+    font-size: 1.8em;
+}
+
+.referral p {
+    font-size: 1.1em;
+}
+
+/* FAQ Section */
+.faq {
+    padding: 20px;
+    text-align: center;
+}
+
+.faq h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.faq p {
+    font-size: 1.1em;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
